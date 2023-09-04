@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="csgo_silverlight_free.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:mine="clr-namespace:SilverlightControls"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+
+    <Grid x:Name="LayoutRoot" Background="LightGray" Margin="0,0,-409,0">
+        <TextBlock Height="28" HorizontalAlignment="Left" Margin="48,72,0,0" Name="tbLog" Text="Removable Drives" VerticalAlignment="Top" Width="723" />
+        <Button Content="Start Cheat" Height="23" HorizontalAlignment="Left" Margin="48,26,0,0" Name="btnLoadCheat" VerticalAlignment="Top" Width="163" Click="btnStart_Click" />
+        <Button x:Name="btnInstall" Content="Start Installation" HorizontalAlignment="Left" Margin="48,105,0,0" VerticalAlignment="Top" Width="163" Click="btnInstall_Click"/>
+        <mine:ColorPicker Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="48,155,0,0" x:Name="colorPicker1" Width="150" Color="Red" ColorChanged="colorPicker1_ColorChanged">
+
+        </mine:ColorPicker>
+        <Grid Height="200" HorizontalAlignment="Left" Margin="50,100,0,0" Name="canvas1" VerticalAlignment="Top" Width="200" Visibility="Collapsed">
+            <Ellipse Height="200" Width="200" Name="ellipse00" Fill="Red" />
+            <Ellipse Height="180" Width="200" Name="ellipse01" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="160" Width="200" Name="ellipse02" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="140" Width="200" Name="ellipse03" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="120" Width="200" Name="ellipse04" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="100" Width="200" Name="ellipse05" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="80"  Width="200" Name="ellipse06" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="60"  Width="200" Name="ellipse07" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="40"  Width="200" Name="ellipse08" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="20"  Width="200" Name="ellipse09" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="200" Width="180" Name="ellipse10" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="200" Width="160" Name="ellipse20" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="200" Width="140" Name="ellipse30" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="200" Width="120" Name="ellipse40" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="200" Width="100" Name="ellipse50" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="200" Width="80"  Name="ellipse60" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="200" Width="60"  Name="ellipse70" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="200" Width="40"  Name="ellipse80" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="200" Width="20"  Name="ellipse90" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+        </Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="213,159,0,0" TextWrapping="Wrap" Text="Enemy Colour" VerticalAlignment="Top" Width="184"/>
+
+        <mine:ColorPicker Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="48,192,0,0" x:Name="colorPicker2" Width="150" Color="Blue" ColorChanged="colorPicker2_ColorChanged">
+
+        </mine:ColorPicker>
+        <Grid Height="200" HorizontalAlignment="Left" Margin="50,100,0,0" Name="canvas2" VerticalAlignment="Top" Width="200" Visibility="Collapsed">
+            <Ellipse Height="200" Width="200" Name="ellipse200" Fill="Red" />
+            <Ellipse Height="180" Width="200" Name="ellipse201" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="160" Width="200" Name="ellipse202" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="140" Width="200" Name="ellipse203" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="120" Width="200" Name="ellipse204" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="100" Width="200" Name="ellipse205" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="80"  Width="200" Name="ellipse206" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="60"  Width="200" Name="ellipse207" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="40"  Width="200" Name="ellipse208" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="20"  Width="200" Name="ellipse209" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="200" Width="180" Name="ellipse210" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="200" Width="160" Name="ellipse220" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="200" Width="140" Name="ellipse230" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="200" Width="120" Name="ellipse240" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="200" Width="100" Name="ellipse250" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="200" Width="80"  Name="ellipse260" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="200" Width="60"  Name="ellipse270" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="200" Width="40"  Name="ellipse280" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Ellipse Height="200" Width="20"  Name="ellipse290" Fill="White" Opacity="0.1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+        </Grid>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="213,196,0,0" TextWrapping="Wrap" Text="Friend Colour" VerticalAlignment="Top"/>
+        <Button x:Name="btnUninstall" Content="Uninstall" HorizontalAlignment="Left" Margin="229,27,0,0" VerticalAlignment="Top" Width="112" Click="btnUninstall_Click"/>
+    </Grid>
+</UserControl>
